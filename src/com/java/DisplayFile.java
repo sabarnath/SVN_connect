@@ -70,8 +70,8 @@ public class DisplayFile {
          */
         //String url = "http://scm.vmcorp/svn/vm/vmRepository/trunk/Source/repo/vision-base/2.3.1/";
         String url = "http://scm.vmcorp/svn/vm/SCP/branches/PCM_SSO_Upgrade/Source";
-        String name = "ssoundarajan";
-        String password = "SSound987654321";
+        String name = "**************";
+        String password = "***************";
         //String filePath = "vision-base-2.3.1.jar";
         String filePath = "/";
         /*
