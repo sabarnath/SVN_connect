@@ -1,7 +1,7 @@
 /*
  * ====================================================================
  * Copyright (c) 2004-2011 TMate Software Ltd.  All rights reserved.
- *
+ * ......
  * This software is licensed as described in the file COPYING, which
  * you should have received as part of this distribution.  The terms
  * are also available at http://svnkit.com/license.html
@@ -28,35 +28,6 @@ import org.tmatesoft.svn.core.io.SVNRepository;
 import org.tmatesoft.svn.core.io.SVNRepositoryFactory;
 import org.tmatesoft.svn.core.wc.SVNWCUtil;
 
-/*
- * This example shows how to fetch a file and its properties from the repository
- * at the latest (HEAD) revision . If the file is a text (either it has no
- * svn:mime-type property at all or if has and the property value is text/-like)
- * its contents as well as properties will be displayed in the console,
- * otherwise - only properties. 
- * As an example here's a part of one of the
- * program layouts (for the default url and file path used in the program):
- *  
- * File property: svn:entry:revision=2802
- * File property: svn:entry:checksum=435f2f0d33d12907ddb6dfd611825ec9
- * File property: svn:wc:ra_dav:version-url=/repos/svnkit/!svn/ver/2795/trunk/www/license.html
- * File property: svn:entry:last-author=alex
- * File property: svn:entry:committed-date=2006-11-13T21:34:27.908657Z
- * File property: svn:entry:committed-rev=2795
- * File contents:
- * 
- * <html>
- * <head>
- * <link rel="shortcut icon" href="img/favicon.ico"/>
- * <title>SVNKit&nbsp;::&nbsp;License</title>
- * </head>
- * <body>
- * <h1>The TMate Open Source License.</h1>
- * <pre>
- * ......................................
- * ---------------------------------------------
- * Repository latest revision: 2802
- */
 public class DisplayFile {
     /*
      * args parameter is used to obtain a repository location URL, user's
